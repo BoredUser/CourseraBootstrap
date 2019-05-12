@@ -1,0 +1,24 @@
+{
+  "name": "development",
+  "version": "1.0.0",
+  "description": "Test directory to learn about Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "lite":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoredUser/Coursera.git"
+  },
+  "author": "BoredUser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoredUser/Coursera/issues"
+  },
+  "homepage": "https://github.com/BoredUser/Coursera#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
